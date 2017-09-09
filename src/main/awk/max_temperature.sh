@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for year in all/*
+for year in ncdc_data/*
 do
   echo -ne `basename $year .gz`"\t"
   gunzip -c $year | \

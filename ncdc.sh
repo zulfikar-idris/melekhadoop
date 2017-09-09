@@ -42,7 +42,7 @@ function process_data {
 # $2 - finish year
 function main {
     local start_year=1901
-    local finish_year=2000
+    local finish_year=1920
 
     if [ -n "$1" ]; then
         start_year=$1
